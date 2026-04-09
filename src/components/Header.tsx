@@ -8,6 +8,7 @@ interface HeaderProps {
   setShowTeachers: (show: boolean) => void;
   date: Date;
   setDate: (date: Date) => void;
+  onAboutClick: () => void;
 }
 
 export default function Header({
@@ -16,7 +17,8 @@ export default function Header({
   showTeachers,
   setShowTeachers,
   date,
-  setDate
+  setDate,
+  onAboutClick
 }: HeaderProps) {
   const dateString = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 
@@ -48,15 +50,13 @@ export default function Header({
         </div>
 
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full md:w-auto">
-          <a
-            href="https://zakialsaad.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={onAboutClick}
             className="flex items-center justify-center gap-2 bg-cyan-950/30 hover:bg-cyan-900/50 text-cyan-300 border border-cyan-500/30 px-5 py-2.5 rounded-none font-mono text-sm transition-all hover:shadow-[0_0_15px_rgba(6,182,212,0.2)] hover:border-cyan-400"
           >
             <User className="w-4 h-4" />
             ABOUT_DEVELOPER
-          </a>
+          </button>
 
           <button
             onClick={() => setShowTeachers(!showTeachers)}
