@@ -16,6 +16,9 @@
 
 Designed with modern Android development standards, the native app fully supports **Android 15's edge-to-edge display**, while the core routine engine is powered by a lightweight, lightning-fast web stack.
 
+<img width="1299" height="798" alt="Screenshot 2026-04-09 152702" src="https://github.com/user-attachments/assets/a70e2cb3-adef-4b76-8068-6d78c4b07e57" />
+
+
 ---
 
 ## 🚀 Features
