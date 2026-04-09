@@ -124,26 +124,26 @@ export const getTeacherPhone = (teacherString: string) => {
 export const routineData: Record<string, SectionSchedule> = {
   "A": {
       "Sunday": [
-          { time: "10:00 AM", sub: "EEE 1232", room: "127 EEL", teacher: "Ipshita Tasnim Raha & Mehedi Hasan Shakil" },
+          { time: "10:00 AM", sub: "EEE 1232 (Lab)", room: "127 EEL", teacher: "Ipshita Tasnim Raha & Mehedi Hasan Shakil" },
           { time: "11:00 AM", sub: "EEE 1231", room: "313", teacher: "Ipshita Tasnim Raha" },
           { time: "12:00 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
       ],
       "Monday": [
-          { time: "12:00 PM", sub: "CSE 1201", room: "408", teacher: "Md. Muktar Hossain" }
+          { time: "01:30 PM", sub: "CSE 1201", room: "408", teacher: "Md. Muktar Hossain" }
       ],
       "Tuesday": [
           { time: "11:00 AM", sub: "EEE 1231", room: "1011", teacher: "Ipshita Tasnim Raha" },
-          { time: "12:00 PM", sub: "CSE 1203", room: "311", teacher: "Sanjoy Kumar Chakravarty" }
+          { time: "01:30 PM", sub: "CSE 1203", room: "311", teacher: "Sanjoy Kumar Chakravarty" }
       ],
       "Wednesday": [
           { time: "11:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "12:00 PM", sub: "CSE 1201", room: "812", teacher: "Md. Muktar Hossain" },
-          { time: "01:30 PM", sub: "MAT 1241", room: "411", teacher: "Md. Mizanur Rahman" }
+          { time: "01:30 PM", sub: "CSE 1201", room: "812", teacher: "Md. Muktar Hossain" },
+          { time: "02:30 PM", sub: "MAT 1241", room: "411", teacher: "Md. Mizanur Rahman" }
       ],
       "Thursday": [
           { time: "10:00 AM - 12:00 PM", sub: "CSE 1202 (Lab)", room: "106 DSAL", teacher: "A.S.M Delwar Hossain & Md. Muktar Hossain" },
-          { time: "12:00 PM", sub: "CSE 1203", room: "414", teacher: "Sanjoy Kumar Chakravarty" },
-          { time: "01:30 PM", sub: "MAT 1241", room: "414", teacher: "Md. Mizanur Rahman" }
+          { time: "12:00 PM", sub: "MAT 1241", room: "414", teacher: "Md. Mizanur Rahman" },
+          { time: "01:30 PM", sub: "CSE 1203", room: "414", teacher: "Sanjoy Kumar Chakravarty" }
       ]
   },
   "B": {
@@ -157,17 +157,17 @@ export const routineData: Record<string, SectionSchedule> = {
       ],
       "Tuesday": [
           { time: "10:00 AM - 12:00 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Muktar Hossain & Tanver Ahmed" },
-          { time: "12:00 PM", sub: "CSE 1203", room: "414", teacher: "Mehedi Hasan Shakil" }
+          { time: "01:30 PM", sub: "CSE 1203", room: "414", teacher: "Mehedi Hasan Shakil" }
       ],
       "Wednesday": [
+          { time: "10:00 AM", sub: "MAT 1241", room: "814", teacher: "Md. Mizanur Rahman" },
           { time: "11:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "12:00 PM", sub: "MAT 1241", room: "814", teacher: "Md. Mizanur Rahman" },
           { time: "01:30 PM", sub: "EEE 1231", room: "511", teacher: "Dr. Sinthia Shabnam Mou" }
       ],
       "Thursday": [
-          { time: "09:00 AM", sub: "EEE 1232", room: "130 DSCAL", teacher: "Md. Adnan Sami & Md. Alamin Hossain Pappu" },
+          { time: "09:00 AM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Md. Adnan Sami & Md. Alamin Hossain Pappu" },
           { time: "10:00 AM", sub: "CSE 1203", room: "812", teacher: "Mehedi Hasan Shakil" },
-          { time: "11:00 AM", sub: "CSE 1201", room: "311", teacher: "Md. Muktar Hossain" }
+          { time: "12:00 PM", sub: "CSE 1201", room: "311", teacher: "Md. Muktar Hossain" }
       ]
   },
   "C": {
@@ -176,10 +176,10 @@ export const routineData: Record<string, SectionSchedule> = {
       ],
       "Monday": [
           { time: "11:00 AM - 01:30 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Mohammad Kasedullah & Md. Muktar Hossain" },
-          { time: "01:30 PM", sub: "EEE 1231", room: "413", teacher: "Ipshita Tasnim Raha" }
+          { time: "02:30 PM", sub: "EEE 1231", room: "413", teacher: "Ipshita Tasnim Raha" }
       ],
       "Tuesday": [
-          { time: "11:00 AM", sub: "EEE 1232", room: "130 DSCAL", teacher: "Ipshita Tasnim Raha & Md. Alamin Hossain Pappu" },
+          { time: "10:00 AM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Ipshita Tasnim Raha & Md. Alamin Hossain Pappu" },
           { time: "12:00 PM", sub: "CSE 1201", room: "314", teacher: "Md. Muktar Hossain" },
           { time: "01:30 PM", sub: "CSE 1203", room: "509", teacher: "Umme Rumman" }
       ],
@@ -190,8 +190,8 @@ export const routineData: Record<string, SectionSchedule> = {
           { time: "01:30 PM", sub: "MAT 1241", room: "408", teacher: "Md. Mizanur Rahman" }
       ],
       "Thursday": [
-          { time: "12:00 PM", sub: "MAT 1241", room: "402", teacher: "Md. Mizanur Rahman" },
-          { time: "02:30 PM", sub: "EEE 1231", room: "1012", teacher: "Ipshita Tasnim Raha" }
+          { time: "11:00 AM", sub: "MAT 1241", room: "402", teacher: "Md. Mizanur Rahman" },
+          { time: "01:30 PM", sub: "EEE 1231", room: "1012", teacher: "Ipshita Tasnim Raha" }
       ]
   },
   "D": {
@@ -201,9 +201,9 @@ export const routineData: Record<string, SectionSchedule> = {
           { time: "12:00 PM - 02:30 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Muktar Hossain & Tanver Ahmed" }
       ],
       "Monday": [
-          { time: "11:00 AM", sub: "CSE 1201", room: "311", teacher: "Tanver Ahmed" },
-          { time: "12:00 PM", sub: "EEE 1231", room: "411", teacher: "Ipshita Tasnim Raha" },
-          { time: "01:30 PM", sub: "MAT 1241", room: "414", teacher: "Md. Mizanur Rahman" }
+          { time: "11:00 AM", sub: "MAT 1241", room: "414", teacher: "Md. Mizanur Rahman" },
+          { time: "12:00 PM", sub: "CSE 1201", room: "311", teacher: "Tanver Ahmed" },
+          { time: "01:30 PM", sub: "EEE 1231", room: "411", teacher: "Ipshita Tasnim Raha" }
       ],
       "Tuesday": [],
       "Wednesday": [
@@ -212,28 +212,28 @@ export const routineData: Record<string, SectionSchedule> = {
           { time: "01:30 PM", sub: "CSE 1203", room: "514", teacher: "Umme Rumman" }
       ],
       "Thursday": [
-          { time: "12:00 PM", sub: "EEE 1232", room: "130 DSCAL", teacher: "Ipshita Tasnim Raha & Md. Alamin Hossain Pappu" },
-          { time: "01:30 PM", sub: "EEE 1231", room: "408", teacher: "Ipshita Tasnim Raha" },
-          { time: "02:30 PM", sub: "CSE 1203", room: "512", teacher: "Umme Rumman" }
+          { time: "11:00 AM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Ipshita Tasnim Raha & Md. Alamin Hossain Pappu" },
+          { time: "01:30 PM", sub: "CSE 1203", room: "512", teacher: "Umme Rumman" },
+          { time: "02:30 PM", sub: "EEE 1231", room: "408", teacher: "Ipshita Tasnim Raha" }
       ]
   },
   "E": {
       "Sunday": [
           { time: "10:00 AM", sub: "EEE 1231", room: "408", teacher: "Md. Adnan Sami" },
-          { time: "12:00 PM", sub: "EEE 1232", room: "130 DSCAL", teacher: "Shorav Paul & Md. Adnan Sami" }
+          { time: "12:00 PM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Shorav Paul & Md. Adnan Sami" }
       ],
       "Monday": [
           { time: "09:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "01:30 PM", sub: "MAT 1241", room: "814", teacher: "Anupoma Barman Shetu" }
+          { time: "11:00 AM", sub: "MAT 1241", room: "814", teacher: "Anupoma Barman Shetu" }
       ],
       "Tuesday": [
+          { time: "11:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
           { time: "12:00 PM", sub: "CSE 1201", room: "408", teacher: "Tanver Ahmed" },
-          { time: "01:30 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "02:30 PM", sub: "CSE 1203", room: "413", teacher: "Mst. Jannatul Ferdous" }
+          { time: "01:30 PM", sub: "CSE 1203", room: "413", teacher: "Mst. Jannatul Ferdous" }
       ],
       "Wednesday": [
-          { time: "10:00 AM", sub: "EEE 1231", room: "513", teacher: "Md. Adnan Sami" },
-          { time: "11:00 AM", sub: "CSE 1201", room: "408", teacher: "Tanver Ahmed" },
+          { time: "09:00 AM", sub: "EEE 1231", room: "513", teacher: "Md. Adnan Sami" },
+          { time: "10:00 AM", sub: "CSE 1201", room: "408", teacher: "Tanver Ahmed" },
           { time: "12:00 PM", sub: "CSE 1203", room: "1012", teacher: "Mst. Jannatul Ferdous" }
       ],
       "Thursday": [
@@ -251,17 +251,17 @@ export const routineData: Record<string, SectionSchedule> = {
           { time: "11:00 AM", sub: "CSE 1203", room: "408", teacher: "Mst. Jannatul Ferdous" }
       ],
       "Tuesday": [
-          { time: "10:00 AM", sub: "EEE 1231", room: "509", teacher: "Md. Adnan Sami" },
-          { time: "01:30 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
+          { time: "09:00 AM", sub: "EEE 1231", room: "509", teacher: "Md. Adnan Sami" },
+          { time: "11:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
       ],
       "Wednesday": [
           { time: "11:00 AM", sub: "EEE 1231", room: "513", teacher: "Md. Adnan Sami" },
-          { time: "12:00 PM", sub: "CSE 1203", room: "1011", teacher: "Mst. Jannatul Ferdous" },
-          { time: "01:30 PM", sub: "MAT 1241", room: "314", teacher: "Anupoma Barman Shetu" }
+          { time: "12:00 PM", sub: "MAT 1241", room: "314", teacher: "Anupoma Barman Shetu" },
+          { time: "01:30 PM", sub: "CSE 1203", room: "1011", teacher: "Mst. Jannatul Ferdous" }
       ],
       "Thursday": [
-          { time: "11:00 AM", sub: "MAT 1241", room: "311", teacher: "Anupoma Barman Shetu" },
-          { time: "12:00 PM", sub: "EEE 1232", room: "127 EEL", teacher: "Shorav Paul & Md. Adnan Sami" },
+          { time: "10:00 AM", sub: "MAT 1241", room: "311", teacher: "Anupoma Barman Shetu" },
+          { time: "11:00 AM", sub: "EEE 1232 (Lab)", room: "127 EEL", teacher: "Shorav Paul & Md. Adnan Sami" },
           { time: "01:30 PM", sub: "CSE 1201", room: "412", teacher: "D. M. Asadujjaman" }
       ]
   },
@@ -273,20 +273,20 @@ export const routineData: Record<string, SectionSchedule> = {
       ],
       "Monday": [
           { time: "09:00 AM", sub: "EEE 1231", room: "812", teacher: "Zannatul Mifta" },
-          { time: "11:00 AM", sub: "EEE 1232", room: "127 EEL", teacher: "Zannatul Mifta & Md. Adnan Sami" }
+          { time: "11:00 AM", sub: "EEE 1232 (Lab)", room: "127 EEL", teacher: "Zannatul Mifta & Md. Adnan Sami" }
       ],
       "Tuesday": [
           { time: "09:00 AM", sub: "CSE 1201", room: "812", teacher: "MST. NAFIA ISLAM SHISHIR" },
-          { time: "11:00 AM", sub: "CSE 1203", room: "814", teacher: "Mst. Jannatul Ferdous" },
+          { time: "10:00 AM", sub: "CSE 1203", room: "814", teacher: "Mst. Jannatul Ferdous" },
           { time: "12:00 PM", sub: "MAT 1241", room: "814", teacher: "Anupoma Barman Shetu" }
       ],
       "Wednesday": [
-          { time: "10:00 AM", sub: "CSE 1203", room: "514", teacher: "Mst. Jannatul Ferdous" },
-          { time: "01:30 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
+          { time: "11:00 AM", sub: "CSE 1203", room: "514", teacher: "Mst. Jannatul Ferdous" },
+          { time: "12:00 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
       ],
       "Thursday": [
           { time: "11:00 AM", sub: "EEE 1231", room: "513", teacher: "Zannatul Mifta" },
-          { time: "01:30 PM - 03:30 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Nour Nabi & MST. NAFIA ISLAM SHISHIR" }
+          { time: "12:00 PM - 02:30 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Nour Nabi & MST. NAFIA ISLAM SHISHIR" }
       ]
   }
 };
