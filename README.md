@@ -4,16 +4,17 @@
 
 ![Android](https://img.shields.io/badge/Platform-Android-3D7A89?style=for-the-badge&logo=android)
 ![Java](https://img.shields.io/badge/Language-Java-00E5FF?style=for-the-badge&logo=java&logoColor=white)
-![UI](https://img.shields.io/badge/UI-Material_Components-00FF66?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-00FF66?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ---
 
 ## ⚡ Overview
 
-**CSECRVU** is a sleek, highly-optimized Android application designed to keep students updated on their daily academic schedules. Moving away from standard, boring utility apps, CSECRVU features a fully custom **cyberpunk/hacker terminal aesthetic** with deep void backgrounds, neon cyan headers, and glowing matrix-green accents.
+**CSECRVU** is a sleek, highly-optimized application designed to keep students updated on their daily academic schedules. Moving away from standard, boring utility apps, CSECRVU features a fully custom **cyberpunk/hacker terminal aesthetic** with deep void backgrounds, neon cyan headers, and glowing matrix-green accents.
 
-Designed with modern Android development standards, the app fully supports **Android 15's edge-to-edge display** architecture, ensuring a seamless, bezel-less user experience.
+Designed with modern Android development standards, the native app fully supports **Android 15's edge-to-edge display**, while the core routine engine is powered by a lightweight, lightning-fast web stack.
 
 ---
 
@@ -21,7 +22,7 @@ Designed with modern Android development standards, the app fully supports **And
 
 * **🟢 Dual Connection Modes:**
     * **Live Routine (Online):** Fetches the most up-to-date schedule via the web portal.
-    * **Offline Routine:** Access your stored schedule instantly, even without an internet connection.
+    * **Offline Routine:** Access your stored schedule instantly via local assets, even without an internet connection.
 * **💻 Terminal Aesthetic UI:** Custom dark-mode-first design featuring glowing text shadows, monospace typography, and sharp, geometric component styling.
 * **📱 Edge-to-Edge Display:** Fully integrated with Android's `WindowInsetsCompat` to draw beautifully behind system navigation and status bars.
 * **🧑‍🏫 Instructor & Class Details:** Quickly view room numbers, course codes (e.g., CSE 1202, MAT 1241), and instructor information at a glance.
@@ -38,13 +39,32 @@ Designed with modern Android development standards, the app fully supports **And
 
 ## 🛠️ Technical Stack
 
+**Native Android Wrapper:**
 * **Language:** Java
-* **UI/Layout:** XML, `ConstraintLayout`
-* **Components:** Google Material Design 3 (`MaterialButton`, custom themes)
-* **Minimum SDK:** API 24 (Android 7.0)
-* **Target SDK:** API 35 (Android 15)
+* **UI/Layout:** XML, Google Material Design 3
+* **Target SDK:** API 35 (Android 15 Edge-to-Edge compliant)
 * **Architecture Highlights:** Intent-based routing, local asset loading (`www/index.html`), and modern Window Insets management.
 
+**Core Routine Engine (Web Portal & Local Assets):**
+* **Logic:** TypeScript (96.5%)
+* **Styling:** CSS (2.9%)
+* **Structure:** HTML (0.6%)
+
 ---
+
+## 🎨 UI Color Palette
+
+For developers looking to contribute, please adhere to the project's core terminal theme:
+* **Void Background:** `#050A10`
+* **Terminal Surface:** `#0A121A`
+* **Neon Cyan (Primary):** `#00E5FF`
+* **Neon Green (Secondary):** `#00FF66`
+* **Muted Teal (Borders):** `#004D26` / `#004A55`
+
+---
+
+## 👨‍💻 Developer / Contact
+
+**Developed by HypnotiXstudio** *For the students of Varendra University.*
 
 © 2026 HypnotiXstudio. All Rights Reserved.
