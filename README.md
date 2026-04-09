@@ -44,3 +44,7 @@ Designed with modern Android development standards, the app fully supports **And
 * **Minimum SDK:** API 24 (Android 7.0)
 * **Target SDK:** API 35 (Android 15)
 * **Architecture Highlights:** Intent-based routing, local asset loading (`www/index.html`), and modern Window Insets management.
+
+---
+
+© 2026 HypnotiXstudio. All Rights Reserved.
