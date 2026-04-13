@@ -2,26 +2,26 @@ import React, { useState } from 'react';
 import { routineData, getTeacherPhone } from '../data';
 import { Phone } from 'lucide-react';
 
-const TIME_SLOTS = ["09:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "01:30 PM", "02:30 PM"];
+const TIME_SLOTS = ["09:00 AM", "10:05 AM", "11:10 AM", "12:15 PM", "01:50 PM", "02:55 PM"];
 const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'];
 
 function getSlotIndex(timeStr: string) {
     if(timeStr.includes("09:00")) return 0;
-    if(timeStr.includes("10:00")) return 1;
-    if(timeStr.includes("11:00")) return 2;
-    if(timeStr.includes("12:00")) return 3;
-    if(timeStr.includes("01:30")) return 4;
-    if(timeStr.includes("02:30")) return 5;
+    if(timeStr.includes("10:05")) return 1;
+    if(timeStr.includes("11:10")) return 2;
+    if(timeStr.includes("12:15")) return 3;
+    if(timeStr.includes("01:50")) return 4;
+    if(timeStr.includes("02:55")) return 5;
     return -1;
 }
 
 function getRowSpan(timeStr: string) {
     if (!timeStr.includes("-")) return 1;
-    if (timeStr.includes("09:00") && timeStr.includes("11:00")) return 2;
-    if (timeStr.includes("10:00") && timeStr.includes("12:00")) return 2;
-    if (timeStr.includes("11:00") && timeStr.includes("01:30")) return 2;
-    if (timeStr.includes("12:00") && timeStr.includes("02:30")) return 2;
-    if (timeStr.includes("01:30") && timeStr.includes("03:30")) return 2;
+    if (timeStr.includes("09:00") && timeStr.includes("11:10")) return 2;
+    if (timeStr.includes("10:05") && timeStr.includes("12:15")) return 2;
+    if (timeStr.includes("11:10") && timeStr.includes("01:50")) return 2;
+    if (timeStr.includes("12:15") && timeStr.includes("02:55")) return 2;
+    if (timeStr.includes("01:50") && timeStr.includes("04:00")) return 2;
     return 1;
 }
 
