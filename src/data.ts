@@ -273,6 +273,12 @@ export const routineData: Record<string, SectionSchedule> = {
         sub: "CSE 2105",
         room: "512",
         teacher: "Salma Akter Lima"
+      },
+      {
+        time: "02:55 PM",
+        sub: "MAT 2141",
+        room: "413",
+        teacher: "Anupoma Barman Shetu"
       }
     ],
     Thursday: [
