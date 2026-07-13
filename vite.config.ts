@@ -16,8 +16,11 @@ export default defineConfig(({mode}) => {
       },
     },
     server: {
+      port: 5173, // <-- Added this to bypass the port 3000 conflict
+      strictPort: false, // <-- Tells Vite to try the next available port if 3001 is also taken
+      
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
