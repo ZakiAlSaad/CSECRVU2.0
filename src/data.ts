@@ -122,171 +122,628 @@ export const getTeacherPhone = (teacherString: string) => {
 };
 
 export const routineData: Record<string, SectionSchedule> = {
-  "A": {
-      "Sunday": [
-          { time: "10:05 AM", sub: "EEE 1232 (Lab)", room: "127 EEL", teacher: "Ipshita Tasnim Raha & Mehedi Hasan Shakil" },
-          { time: "11:10 AM", sub: "EEE 1231", room: "313", teacher: "Ipshita Tasnim Raha" },
-          { time: "12:15 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
-      ],
-      "Monday": [
-          { time: "01:50 PM", sub: "CSE 1201", room: "408", teacher: "Md. Muktar Hossain" }
-      ],
-      "Tuesday": [
-          { time: "11:10 AM", sub: "EEE 1231", room: "1011", teacher: "Ipshita Tasnim Raha" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "311", teacher: "Sanjoy Kumar Chakravarty" }
-      ],
-      "Wednesday": [
-          { time: "11:10 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "01:50 PM", sub: "CSE 1201", room: "812", teacher: "Md. Muktar Hossain" },
-          { time: "02:55 PM", sub: "MAT 1241", room: "411", teacher: "Md. Mizanur Rahman" }
-      ],
-      "Thursday": [
-          { time: "10:05 AM - 12:15 PM", sub: "CSE 1202 (Lab)", room: "106 DSAL", teacher: "A.S.M Delwar Hossain & Md. Muktar Hossain" },
-          { time: "12:15 PM", sub: "MAT 1241", room: "414", teacher: "Md. Mizanur Rahman" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "414", teacher: "Sanjoy Kumar Chakravarty" }
-      ]
+  A: {
+    Sunday: [
+      {
+        time: "09:00 AM - 11:10 AM",
+        sub: "CSE 2104 (Lab)",
+        room: "129 SEL",
+        teacher: "Umme Rumman, Md. Alamin Hossain Pappu"
+      },
+      {
+        time: "11:10 AM",
+        sub: "ECO 2171",
+        room: "514",
+        teacher: "Eco New Teacher 1"
+      }
+    ],
+    Monday: [
+      {
+        time: "09:00 AM",
+        sub: "CSE 2103",
+        room: "911",
+        teacher: "Md. Golam Rashed"
+      },
+      {
+        time: "10:05 AM - 12:15 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "129 SEL",
+        teacher: "A.S.M Delwar Hossain, Md. Nour Nabi"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "01:50 PM",
+        sub: "ECO 2171",
+        room: "414",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "02:55 PM",
+        sub: "MAT 2141",
+        room: "511",
+        teacher: "Anupoma Barman Shetu"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "10:05 AM",
+        sub: "CSE 2106",
+        room: "127 EEL",
+        teacher: "Salma Akter Lima, D. M. Asadujjaman"
+      },
+      {
+        time: "12:15 PM",
+        sub: "CSE 2105",
+        room: "508",
+        teacher: "Salma Akter Lima"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2101",
+        room: "814",
+        teacher: "A.S.M Delwar Hossain"
+      }
+    ],
+    Thursday: [
+      {
+        time: "09:00 AM",
+        sub: "CSE 2103",
+        room: "1013",
+        teacher: "Md. Golam Rashed"
+      },
+      {
+        time: "10:05 AM",
+        sub: "CSE 2101",
+        room: "511",
+        teacher: "A.S.M Delwar Hossain"
+      },
+      {
+        time: "12:15 PM",
+        sub: "CSE 2105",
+        room: "913",
+        teacher: "Salma Akter Lima"
+      },
+      {
+        time: "01:50 PM",
+        sub: "MAT 2141",
+        room: "508",
+        teacher: "Anupoma Barman Shetu"
+      }
+    ]
   },
-  "B": {
-      "Sunday": [
-          { time: "10:05 AM", sub: "CSE 1201", room: "313", teacher: "Md. Muktar Hossain" },
-          { time: "12:15 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "01:50 PM", sub: "EEE 1231", room: "1013", teacher: "Dr. Sinthia Shabnam Mou" }
-      ],
-      "Monday": [
-          { time: "01:50 PM", sub: "MAT 1241", room: "511", teacher: "Md. Mizanur Rahman" }
-      ],
-      "Tuesday": [
-          { time: "10:05 AM - 12:15 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Muktar Hossain & Tanver Ahmed" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "414", teacher: "Mehedi Hasan Shakil" }
-      ],
-      "Wednesday": [
-          { time: "10:05 AM", sub: "MAT 1241", room: "814", teacher: "Md. Mizanur Rahman" },
-          { time: "11:10 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "01:50 PM", sub: "EEE 1231", room: "511", teacher: "Dr. Sinthia Shabnam Mou" }
-      ],
-      "Thursday": [
-          { time: "09:00 AM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Md. Adnan Sami & Md. Alamin Hossain Pappu" },
-          { time: "10:05 AM", sub: "CSE 1203", room: "812", teacher: "Mehedi Hasan Shakil" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "311", teacher: "Md. Muktar Hossain" }
-      ]
+  B: {
+    Sunday: [
+      {
+        time: "09:00 AM",
+        sub: "CSE 2103",
+        room: "414",
+        teacher: "Samira Tareque"
+      },
+      {
+        time: "10:05 AM",
+        sub: "CSE 2101",
+        room: "314",
+        teacher: "Ahmed Al Azmain"
+      },
+      {
+        time: "12:15 PM",
+        sub: "ECO 2171",
+        room: "513",
+        teacher: "Eco New Teacher 1"
+      }
+    ],
+    Monday: [
+      {
+        time: "10:05 AM - 12:15 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "104 CNL",
+        teacher: "Ahmed Al Azmain, Md. Fatin Ilham"
+      },
+      {
+        time: "12:15 PM",
+        sub: "MAT 2141",
+        room: "514",
+        teacher: "Anupoma Barman Shetu"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2106",
+        room: "127 EEL",
+        teacher: "Salma Akter Lima, D. M. Asadujjaman"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "11:10 AM",
+        sub: "ECO 2171",
+        room: "514",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2103",
+        room: "1008",
+        teacher: "Samira Tareque"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "01:50 PM",
+        sub: "CSE 2105",
+        room: "512",
+        teacher: "Salma Akter Lima"
+      }
+    ],
+    Thursday: [
+      {
+        time: "10:05 AM",
+        sub: "CSE 2101",
+        room: "414",
+        teacher: "Ahmed Al Azmain"
+      },
+      {
+        time: "11:10 AM",
+        sub: "CSE 2105",
+        room: "413",
+        teacher: "Salma Akter Lima"
+      },
+      {
+        time: "12:15 PM - 02:55 PM",
+        sub: "CSE 2104 (Lab)",
+        room: "103 DMSL",
+        teacher: "Umme Rumman, Samira Tareque"
+      }
+    ]
   },
-  "C": {
-      "Sunday": [
-          { time: "09:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
-      ],
-      "Monday": [
-          { time: "11:10 AM - 01:50 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Mohammad Kasedullah & Md. Muktar Hossain" },
-          { time: "02:55 PM", sub: "EEE 1231", room: "413", teacher: "Ipshita Tasnim Raha" }
-      ],
-      "Tuesday": [
-          { time: "10:05 AM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Ipshita Tasnim Raha & Md. Alamin Hossain Pappu" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "314", teacher: "Md. Muktar Hossain" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "509", teacher: "Umme Rumman" }
-      ],
-      "Wednesday": [
-          { time: "09:00 AM", sub: "CSE 1203", room: "514", teacher: "Umme Rumman" },
-          { time: "10:05 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "514", teacher: "Md. Muktar Hossain" },
-          { time: "01:50 PM", sub: "MAT 1241", room: "408", teacher: "Md. Mizanur Rahman" }
-      ],
-      "Thursday": [
-          { time: "11:10 AM", sub: "MAT 1241", room: "402", teacher: "Md. Mizanur Rahman" },
-          { time: "01:50 PM", sub: "EEE 1231", room: "1012", teacher: "Ipshita Tasnim Raha" }
-      ]
+  C: {
+    Sunday: [
+      {
+        time: "11:10 AM",
+        sub: "CSE 2106",
+        room: "127 EEL",
+        teacher: "Salma Akter Lima, Md. Nahid Hasan"
+      },
+      {
+        time: "12:15 PM",
+        sub: "CSE 2101",
+        room: "1009",
+        teacher: "A.S.M Delwar Hossain"
+      }
+    ],
+    Monday: [
+      {
+        time: "09:00 AM",
+        sub: "ECO 2171",
+        room: "314",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "11:10 AM",
+        sub: "CSE 2103",
+        room: "508",
+        teacher: "Samira Tareque"
+      },
+      {
+        time: "12:15 PM - 02:55 PM",
+        sub: "CSE 2104 (Lab)",
+        room: "128 BCL",
+        teacher: "Umme Rumman, Samira Tareque"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "12:15 PM",
+        sub: "MAT 2141",
+        room: "1011",
+        teacher: "Anupoma Barman Shetu"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2105",
+        room: "508",
+        teacher: "Salma Akter Lima"
+      },
+      {
+        time: "02:55 PM",
+        sub: "CSE 2101",
+        room: "910",
+        teacher: "A.S.M Delwar Hossain"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "10:05 AM",
+        sub: "MAT 2141",
+        room: "314",
+        teacher: "Anupoma Barman Shetu"
+      },
+      {
+        time: "11:10 AM",
+        sub: "CSE 2103",
+        room: "814",
+        teacher: "Samira Tareque"
+      }
+    ],
+    Thursday: [
+      {
+        time: "09:00 AM",
+        sub: "ECO 2171",
+        room: "511",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "10:05 AM",
+        sub: "CSE 2105",
+        room: "1014",
+        teacher: "Salma Akter Lima"
+      },
+      {
+        time: "12:15 PM - 02:55 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "104 CNL",
+        teacher: "A.S.M Delwar Hossain, Md. Nour Nabi"
+      }
+    ]
   },
-  "D": {
-      "Sunday": [
-          { time: "09:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "10:05 AM", sub: "MAT 1241", room: "411", teacher: "Md. Mizanur Rahman" },
-          { time: "12:15 PM - 02:55 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Muktar Hossain & Tanver Ahmed" }
-      ],
-      "Monday": [
-          { time: "11:10 AM", sub: "MAT 1241", room: "414", teacher: "Md. Mizanur Rahman" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "311", teacher: "Tanver Ahmed" },
-          { time: "01:50 PM", sub: "EEE 1231", room: "411", teacher: "Ipshita Tasnim Raha" }
-      ],
-      "Tuesday": [],
-      "Wednesday": [
-          { time: "10:05 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "512", teacher: "Tanver Ahmed" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "514", teacher: "Umme Rumman" }
-      ],
-      "Thursday": [
-          { time: "11:10 AM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Ipshita Tasnim Raha & Md. Alamin Hossain Pappu" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "512", teacher: "Umme Rumman" },
-          { time: "02:55 PM", sub: "EEE 1231", room: "408", teacher: "Ipshita Tasnim Raha" }
-      ]
+  D: {
+    Sunday: [
+      {
+        time: "09:00 AM",
+        sub: "ECO 2171",
+        room: "311",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "10:05 AM",
+        sub: "CSE 2106",
+        room: "130 DSCAL",
+        teacher: "Salma Akter Lima, Tahrima Sayem Sowa"
+      },
+      {
+        time: "11:10 AM",
+        sub: "MAT 2141",
+        room: "1013",
+        teacher: "CSE New Teacher 3"
+      }
+    ],
+    Monday: [
+      {
+        time: "12:15 PM",
+        sub: "ECO 2171",
+        room: "513",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2101",
+        room: "812",
+        teacher: "Ahmed Al Azmain"
+      },
+      {
+        time: "02:55 PM",
+        sub: "CSE 2105",
+        room: "1001",
+        teacher: "Salma Akter Lima"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "09:00 AM - 11:10 AM",
+        sub: "CSE 2104 (Lab)",
+        room: "104 CNL",
+        teacher: "Umme Rumman, Samira Tareque"
+      },
+      {
+        time: "12:15 PM",
+        sub: "CSE 2105",
+        room: "509",
+        teacher: "Salma Akter Lima"
+      },
+      {
+        time: "01:50 PM",
+        sub: "MAT 2141",
+        room: "311",
+        teacher: "CSE New Teacher 3"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "09:00 AM",
+        sub: "CSE 2103",
+        room: "1013",
+        teacher: "Samira Tareque"
+      },
+      {
+        time: "10:05 AM",
+        sub: "CSE 2101",
+        room: "311",
+        teacher: "Ahmed Al Azmain"
+      }
+    ],
+    Thursday: [
+      {
+        time: "10:05 AM",
+        sub: "CSE 2103",
+        room: "411",
+        teacher: "Samira Tareque"
+      },
+      {
+        time: "12:15 PM - 02:55 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "106 DSAL",
+        teacher: "Ahmed Al Azmain, Md. Fatin Ilham"
+      }
+    ]
   },
-  "E": {
-      "Sunday": [
-          { time: "10:05 AM", sub: "EEE 1231", room: "408", teacher: "Md. Adnan Sami" },
-          { time: "12:15 PM", sub: "EEE 1232 (Lab)", room: "130 DSCAL", teacher: "Shorav Paul & Md. Adnan Sami" }
-      ],
-      "Monday": [
-          { time: "09:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "11:10 AM", sub: "MAT 1241", room: "814", teacher: "Anupoma Barman Shetu" }
-      ],
-      "Tuesday": [
-          { time: "11:10 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "408", teacher: "Tanver Ahmed" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "413", teacher: "Mst. Jannatul Ferdous" }
-      ],
-      "Wednesday": [
-          { time: "09:00 AM", sub: "EEE 1231", room: "513", teacher: "Md. Adnan Sami" },
-          { time: "10:05 AM", sub: "CSE 1201", room: "408", teacher: "Tanver Ahmed" },
-          { time: "12:15 PM", sub: "CSE 1203", room: "1012", teacher: "Mst. Jannatul Ferdous" }
-      ],
-      "Thursday": [
-          { time: "11:10 AM - 01:50 PM", sub: "CSE 1202 (Lab)", room: "128 BCL", teacher: "Mohammad Kasedullah & Tanver Ahmed" },
-          { time: "01:50 PM", sub: "MAT 1241", room: "509", teacher: "Anupoma Barman Shetu" }
-      ]
+  E: {
+    Sunday: [
+      {
+        time: "09:00 AM",
+        sub: "CSE 2105",
+        room: "411",
+        teacher: "Zannatul Mifta"
+      },
+      {
+        time: "11:10 AM",
+        sub: "CSE 2101",
+        room: "814",
+        teacher: "A.S.M Delwar Hossain"
+      },
+      {
+        time: "12:15 PM",
+        sub: "MAT 2141",
+        room: "414",
+        teacher: "CSE New Teacher 3"
+      }
+    ],
+    Monday: [
+      {
+        time: "10:05 AM",
+        sub: "ECO 2171",
+        room: "512",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "11:10 AM",
+        sub: "CSE 2106",
+        room: "127 EEL",
+        teacher: "Mst. Jannatul Ferdous, Zannatul Mifta"
+      },
+      {
+        time: "12:15 PM",
+        sub: "CSE 2101",
+        room: "812",
+        teacher: "A.S.M Delwar Hossain"
+      },
+      {
+        time: "02:55 PM",
+        sub: "CSE 2103",
+        room: "1008",
+        teacher: "Afroza Islam"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "10:05 AM - 12:15 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "129 SEL",
+        teacher: "A.S.M Delwar Hossain, Mohammad Faisal Al-Naser"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2105",
+        room: "512",
+        teacher: "Zannatul Mifta"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "12:15 PM - 02:55 PM",
+        sub: "CSE 2104 (Lab)",
+        room: "103 DMSL",
+        teacher: "Sumaiya Tasnim Bristi, Afroza Islam"
+      }
+    ],
+    Thursday: [
+      {
+        time: "12:15 PM",
+        sub: "ECO 2171",
+        room: "511",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "01:50 PM",
+        sub: "MAT 2141",
+        room: "509",
+        teacher: "CSE New Teacher 3"
+      },
+      {
+        time: "02:55 PM",
+        sub: "CSE 2103",
+        room: "913",
+        teacher: "Afroza Islam"
+      }
+    ]
   },
-  "F": {
-      "Sunday": [
-          { time: "09:00 AM - 11:10 AM", sub: "CSE 1202 (Lab)", room: "106 DSAL", teacher: "Tanver Ahmed & Mohammad Kasedullah" },
-          { time: "12:15 PM", sub: "CSE 1201", room: "1012", teacher: "D. M. Asadujjaman" }
-      ],
-      "Monday": [
-          { time: "09:00 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "11:10 AM", sub: "CSE 1203", room: "408", teacher: "Mst. Jannatul Ferdous" }
-      ],
-      "Tuesday": [
-          { time: "09:00 AM", sub: "EEE 1231", room: "509", teacher: "Md. Adnan Sami" },
-          { time: "11:10 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
-      ],
-      "Wednesday": [
-          { time: "11:10 AM", sub: "EEE 1231", room: "513", teacher: "Md. Adnan Sami" },
-          { time: "12:15 PM", sub: "MAT 1241", room: "314", teacher: "Anupoma Barman Shetu" },
-          { time: "01:50 PM", sub: "CSE 1203", room: "1011", teacher: "Mst. Jannatul Ferdous" }
-      ],
-      "Thursday": [
-          { time: "10:05 AM", sub: "MAT 1241", room: "311", teacher: "Anupoma Barman Shetu" },
-          { time: "11:10 AM", sub: "EEE 1232 (Lab)", room: "127 EEL", teacher: "Shorav Paul & Md. Adnan Sami" },
-          { time: "01:50 PM", sub: "CSE 1201", room: "412", teacher: "D. M. Asadujjaman" }
-      ]
+  F: {
+    Sunday: [
+      {
+        time: "01:50 PM",
+        sub: "CSE 2105",
+        room: "411",
+        teacher: "Zannatul Mifta"
+      },
+      {
+        time: "02:55 PM",
+        sub: "CSE 2103",
+        room: "1001",
+        teacher: "Afroza Islam"
+      }
+    ],
+    Monday: [
+      {
+        time: "12:15 PM",
+        sub: "MAT 2141",
+        room: "314",
+        teacher: "CSE New Teacher 3"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2106",
+        room: "131 MIL",
+        teacher: "Mst. Jannatul Ferdous, Zannatul Mifta"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "10:05 AM",
+        sub: "ECO 2171",
+        room: "414",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "11:10 AM - 01:50 PM",
+        sub: "CSE 2104 (Lab)",
+        room: "104 CNL",
+        teacher: "Israt Jahan Rinky, Afroza Islam"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2101",
+        room: "511",
+        teacher: "Barisha Chowdhury"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "10:05 AM - 12:15 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "106 DSAL",
+        teacher: "A.S.M Delwar Hossain, Barisha Chowdhury"
+      },
+      {
+        time: "12:15 PM",
+        sub: "ECO 2171",
+        room: "412",
+        teacher: "Eco New Teacher 1"
+      },
+      {
+        time: "01:50 PM",
+        sub: "MAT 2141",
+        room: "511",
+        teacher: "CSE New Teacher 3"
+      }
+    ],
+    Thursday: [
+      {
+        time: "12:15 PM",
+        sub: "CSE 2105",
+        room: "514",
+        teacher: "Zannatul Mifta"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2103",
+        room: "911",
+        teacher: "Afroza Islam"
+      },
+      {
+        time: "02:55 PM",
+        sub: "CSE 2101",
+        room: "514",
+        teacher: "Barisha Chowdhury"
+      }
+    ]
   },
-  "G": {
-      "Sunday": [
-          { time: "11:10 AM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" },
-          { time: "01:50 PM", sub: "CSE 1201", room: "911", teacher: "MST. NAFIA ISLAM SHISHIR" },
-          { time: "02:55 PM", sub: "MAT 1241", room: "413", teacher: "Anupoma Barman Shetu" }
-      ],
-      "Monday": [
-          { time: "09:00 AM", sub: "EEE 1231", room: "812", teacher: "Zannatul Mifta" },
-          { time: "11:10 AM", sub: "EEE 1232 (Lab)", room: "127 EEL", teacher: "Zannatul Mifta & Md. Adnan Sami" }
-      ],
-      "Tuesday": [
-          { time: "09:00 AM", sub: "CSE 1201", room: "812", teacher: "MST. NAFIA ISLAM SHISHIR" },
-          { time: "10:05 AM", sub: "CSE 1203", room: "814", teacher: "Mst. Jannatul Ferdous" },
-          { time: "12:15 PM", sub: "MAT 1241", room: "814", teacher: "Anupoma Barman Shetu" }
-      ],
-      "Wednesday": [
-          { time: "11:10 AM", sub: "CSE 1203", room: "514", teacher: "Mst. Jannatul Ferdous" },
-          { time: "12:15 PM", sub: "BAN 0001", room: "106", teacher: "Most. Afshara Tasnim Ritu" }
-      ],
-      "Thursday": [
-          { time: "11:10 AM", sub: "EEE 1231", room: "513", teacher: "Zannatul Mifta" },
-          { time: "12:15 PM - 02:55 PM", sub: "CSE 1202 (Lab)", room: "129 SEL", teacher: "Md. Nour Nabi & MST. NAFIA ISLAM SHISHIR" }
-      ]
+  G: {
+    Sunday: [
+      {
+        time: "11:10 AM",
+        sub: "CSE 2101",
+        room: "513",
+        teacher: "Barisha Chowdhury"
+      },
+      {
+        time: "12:15 PM",
+        sub: "CSE 2105",
+        room: "512",
+        teacher: "Zannatul Mifta"
+      },
+      {
+        time: "01:50 PM - 04:00 PM",
+        sub: "CSE 2102 (Lab)",
+        room: "106 DSAL",
+        teacher: "Md. Nour Nabi, Barisha Chowdhury"
+      }
+    ],
+    Monday: [
+      {
+        time: "09:00 AM",
+        sub: "ECO 2171",
+        room: "311",
+        teacher: "Eco New Teacher 4"
+      },
+      {
+        time: "10:05 AM",
+        sub: "CSE 2101",
+        room: "513",
+        teacher: "Barisha Chowdhury"
+      },
+      {
+        time: "11:10 AM",
+        sub: "CSE 2103",
+        room: "913",
+        teacher: "Afroza Islam"
+      }
+    ],
+    Tuesday: [
+      {
+        time: "09:00 AM",
+        sub: "ECO 2171",
+        room: "514",
+        teacher: "Eco New Teacher 4"
+      },
+      {
+        time: "10:05 AM",
+        sub: "MAT 2141",
+        room: "913",
+        teacher: "CSE New Teacher 3"
+      }
+    ],
+    Wednesday: [
+      {
+        time: "10:05 AM - 12:15 PM",
+        sub: "CSE 2104 (Lab)",
+        room: "129 SEL",
+        teacher: "Israt Jahan Rinky, Afroza Islam"
+      },
+      {
+        time: "12:15 PM",
+        sub: "MAT 2141",
+        room: "511",
+        teacher: "CSE New Teacher 3"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2106",
+        room: "127 EEL",
+        teacher: "Mst. Jannatul Ferdous, Zannatul Mifta"
+      }
+    ],
+    Thursday: [
+      {
+        time: "11:10 AM",
+        sub: "CSE 2103",
+        room: "314",
+        teacher: "Afroza Islam"
+      },
+      {
+        time: "01:50 PM",
+        sub: "CSE 2105",
+        room: "413",
+        teacher: "Zannatul Mifta"
+      }
+    ]
   }
 };

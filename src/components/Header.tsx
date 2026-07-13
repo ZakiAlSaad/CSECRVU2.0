@@ -44,7 +44,7 @@ export default function Header({
               CSECRVU
             </h1>
             <p className="text-cyan-500/60 font-mono text-xs tracking-[0.2em] uppercase mt-1">
-              Varendra_University // CSE_DEPT // Batch 37 // 2nd Semester
+              Varendra_University // CSE_DEPT // Batch 37 // 3rd Semester
             </p>
           </div>
         </div>
