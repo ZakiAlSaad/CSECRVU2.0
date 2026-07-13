@@ -17,111 +17,126 @@ export interface SectionSchedule {
 }
 
 export const teacherPhones: Record<string, string> = {
-  "Shamima Ahmad": "01716793242",
-  "Sabina Yasmin": "01763237094",
-  "Dr. Ahammad Hossain": "01713328537",
-  "Arifa Ferdousi": "01770702911",
-  "Md. Mizanur Rahman": "01710667328",
-  "Umme Rumman": "01756287725",
-  "Mst. Jannatul Ferdous": "01795381332",
-  "Sumaia Rahman": "01780161781",
-  "A.S.M. Delwar Hossain": "01701012413",
-  "A.S.M Delwar": "01701012413",
-  "Md. Nour Nobi": "01755774070",
-  "Nour Nabi": "01755774070",
-  "Md. Toufikul Islam": "01701041311",
-  "Ayesha Akter Lima": "01950427482",
-  "Salma Akter Rima": "01710425436",
-  "Sumaiya Tasnim": "01799011979",
-  "Shamim Reza": "01921285959",
-  "Akib ikbal": "01743172636",
-  "Mohammad Faisal Al-Naser": "01404732567",
-  "Ahmed-Al-Azmain": "01765388951",
+  "Prof. Dr. Shamim Ahmad": "01730406518",
+  "Dr. Ahammad Hossain": "01762327094",
+  "Md. Mizanur Rahman": "01770702911",
+  "Umme Rumman": "01716673728",
+  "Mst. Jannatul Ferdous": "01756827725",
+  "Sumaia Rahman": "01795381332",
+  "A.S.M Delwar Hossain": "01780681781",
+  "Md. Toufikul Islam": "01701012413",
   "Md. Muktar Hossain": "01776300789",
-  "Md. Muktar": "01776300789",
-  "Tanver Ahmed": "01781949541",
-  "Md. Mustafiqur Rahman Mridha": "01706344983",
-  "Md. Fatin Ilham": "01616425777",
-  "Md. Jamil Choudhury": "01793942198",
-  "Md. Shahid Ahammed Shakil": "01766165877",
-  "Zannatul Mifta": "01734154559",
-  "Arun Kumar Sikder": "01741424226",
-  "Sushmit Jahan Rose": "01792774195",
-  "Md. Ruhul Amin": "01313529302",
   "Md. Mahfujur Rahman": "01976411722",
-  "D.M. Asadijjaman": "01701042718",
-  "D. M. Asadijjaman": "01701042718",
-  "Pallab Chowdhury": "01774895155",
-  "Israt Jahan Rinky": "01710437000",
   "Protik Chakroborty": "01318988313",
-  "Shorav Paul": "01834740441",
-  "Arshad Wasif": "01858316636",
+  "Md. Nour Noby": "01755774070",
+  "Ayesha Akter Lima": "01701041311",
+  "Ipshita Tasnim Raha": "01715673436",
+  "Sumaiya Tasnim Dristy": "01799011979",
+  "Shamim Reza": "01921285959",
+  "Akib Ikbal": "01743172636",
+  "Samira Tareque": "01309427603",
+  "Mohammad Faisal Al-Naser": "01404732567",
+  "Ahmed Al Azmain": "01765388951, 01701072498",
+  "Md. Jamil Chaudhary": "01793942198",
+  "Md. Shahid Ahmmed Shakil": "01766165877",
+  "Zannatul Mifta": "01738659759",
+  "Ruhul Amin": "01313529302",
+  "Susmit Jahan Rose": "01792774195",
+  "Israt Jahan Rinky": "01710437000",
+  "Md. Fatin Ilham": "01616425777",
+  "D.M Asadujjaman": "01701042718",
+  "Md. Arshad Wasif": "01858316636",
   "Md. Taufiq Khan": "01952749248",
-  "Sadman Rahman Shova": "01648164344",
-  "Iffat Farhana": "01765729957",
-  "Nafia Islam": "01733331347",
-  "MST. NAFIA ISLAM SHISHIR": "01733331347",
-  "NAFIA ISLAM SHISHIR": "01733331347",
-  "Susmita Paul": "01986850328",
+  "Shorav Paul": "01834740441",
+  "Sumaya Hannan Shova": "01645714144",
   "Md. Fayzul Islam": "01795035574",
-  "Md. Rakibul Islam": "01304172487",
-  "Mst. Mazeda Noor Tasnim": "01316026819",
-  "Md. Adnan Sami": "01648187304",
-  "Adnan Sami": "01648187304",
+  "MD. Adnan Sami": "01648187304",
   "Adrita Alam": "01733331392",
-  "Rokaiya Tasnim": "01747805282",
-  "Shahara Laila": "0185-2643752",
-  "Md. Farhan Tanvir Nasim": "01759-116054",
-  "Afroza Islam": "01318-751114",
-  "Humayra Tasnim": "01773-303199",
-  "Asim Moin Saad": "01774222664",
-  "Arifa Khondkar Sania": "01764521084",
-  "Zunaira Rassa Bintey Makin": "01829051117",
+  "Afroza Islam": "01318751114",
+  "Zuairia Raisa Bintay Makin": "01829051117",
+  "Humayra Tasnim": "01773303199",
+  "Asim Moin Saad": "01814222664",
+  "Afifa Tasneem Quanita": "01764828065",
   "Md. Khalid Sakib": "01722661773",
   "Md. Alamin Hossain Pappu": "01776098594",
-  "Alamin Hossain Pappu": "01776098594",
   "Anupoma Barman Shetu": "01704680283",
-  "Mohsiul Mumin Atik": "01787-439759",
+  "Sajeeb Kumar Ray": "01785307680",
+  "Tahrima Sayem Sowa": "01816187689",
+  "Syeda Tamanna Alam Monisha": "01712953999",
+  "Barisha Chowdhury": "01719115149",
+  "Shakil Hossan": "01892016020",
+  "Mehedi Hasan Shakil": "01793814409",
+  "Mohd Ruhul Ameen": "01312300804",
+  "Fahmida Akter Jesis Shithi": "01319406333",
   "Prof. Dr. Boshir Ahmed": "01713228547",
-  "Md. Johirul Islam": "01723216880",
+  "Dr. Md. Johirul Islam": "01723216880",
   "Md. Faruk Hossain, Ph.D.": "01756906574",
-  "Md. Faisal Rahman Badal": "1763130652",
-  "Md. Dr. Mayeedul Islam": "01775093606",
+  "Md. Faisal Rahman Badal": "01763130652",
+  "Dr. Md. Mayeedul Islam": "01775093606",
   "Dr. Jewel Hossen": "01515283109",
-  "Sanjoy Kumar Chakravarty": "01718604436",
+  "Sanjoy Kumar Chakravarty": "01718076436",
   "Dr. Md. Ekramul Hamid": "01726420004",
   "Dr. Md. Iqbal Aziz Khan": "01712010916",
   "Dr. Jaker Hossain": "01919803395",
-  "Dr. Md. Ariful Islam Nahid": "01760174238",
+  "Dr. Md.  Ariful Islam Nahid": "01760174238",
   "Dr. Md. Golam Rashed": "01717515008",
   "Dr. Md. Hamidul Islam": "01714585201",
-  "Dr. Md. Abu Baker PK.": "01716386533",
-  "Dr. Md. Sherezzaman": "01701712201",
+  "Dr. Md. Abu Bakar PK.": "01716386533",
+  "Dr. Md. Sherezzaman": "01717012201",
   "Md. Sanaul Haque": "01774314119",
   "Mst. Somapti Akter": "01771180837",
   "Sanjida Sultana Rika": "01861081984",
-  "Enamul Haque": "01710056688"
+  "Emamul Haque": "01710056688",
+  "Fahamina Zahan": "01886714826",
+  "Faisal Aziz": "01717843998",
+  "Subrina Ahmed Shanta": "01335899457",
+  "Bebak More": "01738474122",
+  "Md. Moniruzzaman Kiron": "01975589956, 01778582757",
 };
 
-const getDemoPhone = (name: string) => {
-  let hash = 0;
-  for (let i = 0; i < name.length; i++) {
-    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+export const getTeacherPhone = (teacherName: string): string => {
+  // Try exact match
+  if (teacherPhones[teacherName]) return teacherPhones[teacherName];
+  
+  // Try exact match after trimming
+  let trimmed = teacherName.trim();
+  
+  // Map routine names to the new provided phone list names
+  if (trimmed === "Salma Akter Lima" || trimmed === "Salma Akter Rima") trimmed = "Ayesha Akter Lima";
+  if (trimmed === "Md. Nour Nabi") trimmed = "Md. Nour Noby";
+  if (trimmed === "Sumaiya Tasnim Bristi") trimmed = "Sumaiya Tasnim Dristy";
+  if (trimmed === "D. M. Asadujjaman") trimmed = "D.M Asadujjaman";
+  if (trimmed === "Md. Adnan Sami") trimmed = "MD. Adnan Sami";
+  
+  
+  if (trimmed === "Md. Golam Rashed") trimmed = "Dr. Md. Golam Rashed";
+  if (teacherPhones[trimmed]) return teacherPhones[trimmed];
+
+  // If there are multiple teachers (comma separated)
+  if (trimmed.includes(',')) {
+    const teachers = trimmed.split(',').map(t => t.trim());
+    return teachers.map(t => {
+      let tt = t;
+      if (tt === "Salma Akter Lima" || tt === "Salma Akter Rima") tt = "Ayesha Akter Lima";
+      if (tt === "Md. Nour Nabi") tt = "Md. Nour Noby";
+      if (tt === "Sumaiya Tasnim Bristi") tt = "Sumaiya Tasnim Dristy";
+      if (tt === "D. M. Asadujjaman") tt = "D.M Asadujjaman";
+      if (tt === "Md. Adnan Sami") tt = "MD. Adnan Sami";
+      if (tt === "Md. Golam Rashed") tt = "Dr. Md. Golam Rashed";
+      return teacherPhones[tt] || "N/A";
+    }).join(', ');
   }
-  const num = Math.abs(hash).toString().padStart(6, '0').slice(0, 6);
-  return `+880 17${num.slice(0,2)}-${num.slice(2)}`;
-};
 
-export const getTeacherPhone = (teacherString: string) => {
-  const teachers = teacherString.split('&').map(t => t.trim());
-  const phones = teachers.map(t => {
-    if (teacherPhones[t]) return teacherPhones[t];
-    return getDemoPhone(t);
-  });
-  return phones.join(' & ');
+  // Handle minor naming differences
+  const keys = Object.keys(teacherPhones);
+  const found = keys.find(k => k.toLowerCase() === trimmed.toLowerCase());
+  if (found) return teacherPhones[found];
+  
+  return "N/A";
 };
 
 export const routineData: Record<string, SectionSchedule> = {
+
   A: {
     Sunday: [
       {
